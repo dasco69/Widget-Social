@@ -21,8 +21,9 @@ const Social = new Widget();
 const apparence = Social.widgetCSS();
 ```
 ## Then create element width id and color
-const twitter = Social.action('yourID', 'COLOR');
-
+```
+const yourNAMEID = Social.action('yourID', 'COLOR');
+```
 ### If you can add element you add in index html
 ```
 <a href="https://URL.com" class="link-social" id="yourID">
